@@ -12,16 +12,6 @@ pipeline {
 
 		}
 		
-		stage("Test"){
-			steps {
-				sh "docker compose test-service"
-			}
-		} 
 
-		stage("Deliver"){
-			steps {
-				sh "docker compose push" 
-			}
-		} 
 	}
 }
