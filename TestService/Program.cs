@@ -1,10 +1,3 @@
 using TestService;
 
-IHost host = Host.CreateDefaultBuilder(args)
-    .ConfigureServices(services =>
-    {
-        services.AddHostedService<Worker>();
-    })
-    .Build();
-
-host.Run();
+Test t = new Test();
