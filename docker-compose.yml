@@ -20,3 +20,7 @@ services:
       MYSQL_USER: "div-cache"
       MYSQL_PASSWORD: "C@ch3d1v"
       MYSQL_RANDOM_ROOT_PASSWORD: "yes"
+  test-service:
+    build:
+      context: .
+      dockerfile: TestService/Dockerfile
