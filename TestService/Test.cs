@@ -10,7 +10,7 @@ namespace TestService
     {
         public Test()
         {
-            Console.WriteLine("some test");
+            Console.WriteLine("some tdest");
         }
     }
 }
